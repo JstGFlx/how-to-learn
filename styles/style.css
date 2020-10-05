@@ -10,22 +10,6 @@
   }  
 
   /*Ниже сделал отдельные классы для создания border-ов как в ТЗ (3)*/
-.bold-border {
-  border: 4px solid gray;
-}
-
-.border_place_bottom {
-  border-bottom: 2px solid gray;
-}
-
-.border_place_top {
-  border-top: 2px solid gray;
-}
-
-.border_place_bottom-top {
-  border-top: 2px solid gray;
-  border-bottom: 2px solid gray;
-}
 
 /*ниже класс для переноса элемента на передний план для сокращения кода*/
 .position-front {
@@ -90,7 +74,7 @@
 }
 
 .logo_place_header {
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url("/images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -105,7 +89,7 @@
   right: 0;
 }
 
-.description {
+.description-top {
   margin-top: 100px;
 }
 
@@ -151,7 +135,7 @@
   font-weight: bold;
 }
 
-.digits {
+.digits-top {
   margin: 100px 0;
 }
 
@@ -247,7 +231,7 @@
   color: #2f80ed;
 }
 
-.kaufman {
+.kaufman-top {
   position: relative;
   overflow: hidden;
   padding: 90px 0;
@@ -287,7 +271,7 @@
   right: -210px;
   width: 877px;
   height: 877px;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url("/images/kaufman-triangle.svg");
   
 }
 
@@ -297,7 +281,7 @@
 }
 
 .logo_place_footer {
-  background-image: url(/images/logo_place_footer.svg);
+  background-image: url("/images/logo_place_footer.svg");
 }
 
 .footer__columns {
@@ -365,7 +349,7 @@
   height: 16px;
   margin-right: 10px;
   display: inline-block;
-  background-image: url(/images/facebook_color_white.svg);
+  background-image: url("/images/facebook_color_white.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -376,7 +360,7 @@
   height: 16px;
   margin-right: 10px;
   display: inline-block;
-  background-image: url(/images/vk_color_white.svg);
+  background-image: url("/images/vk_color_white.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -387,7 +371,7 @@
   height: 16px;
   margin-right: 10px;
   display: inline-block;
-  background-image: url(/images/instagram_color_white.svg);
+  background-image: url("/images/instagram_color_white.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
