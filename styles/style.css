@@ -260,14 +260,13 @@
   margin: 20px 0 0;
  }
 
+ /*ниже сделал через img так как через background не отображалось на пре-проверке*/
 .kaufman__triangle {
   position: absolute;
-  background-size: cover;
   top: 0px;
   right: -210px;
   width: 877px;
   height: 877px;
-  background-image: url("/images/kaufman-triangle.svg");
   
 }
 
