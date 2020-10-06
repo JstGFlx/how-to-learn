@@ -9,8 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   }  
 
-  /*Ниже сделал отдельные классы для создания border-ов как в ТЗ (3)*/
-
 /*ниже класс для переноса элемента на передний план для сокращения кода*/
 .position-front {
   position: relative;
@@ -69,12 +67,9 @@
 .logo {
   width: 183px;
   height: 32px;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .logo_place_header {
-  background-image: url("/images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -281,10 +276,6 @@
   padding: 60px 0 40px;
 }
 
-.logo_place_footer {
-  background-image: url("/images/logo_place_footer.svg");
-}
-
 .footer__columns {
   flex-basis: 711px;
   min-height: 250px;
@@ -342,37 +333,6 @@
   list-style-type: none;
 }
 
-/*ниже правила для иконок соцальных сетей*/
-
-.footer__social-icon_facebook::before {
-  content: "";
-  width: 16px;
-  height: 16px;
+.footer__social-icon {
   margin-right: 10px;
-  display: inline-block;
-  background-image: url("/images/facebook_color_white.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.footer__social-icon_vkontakte::before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  display: inline-block;
-  background-image: url("/images/vk_color_white.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.footer__social-icon_instagram::before {
-  content: "";
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  display: inline-block;
-  background-image: url("/images/instagram_color_white.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
