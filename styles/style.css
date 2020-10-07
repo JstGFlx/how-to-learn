@@ -58,6 +58,10 @@
   z-index: 2;
 }
   
+.header__link:hover {
+  background-color: aqua;
+}
+
 .header__link {
   text-decoration: none;
   color: #2f80ed;
@@ -232,6 +236,10 @@
   color: #2f80ed;
 }
 
+.feynman__link:hover {
+  background-color: aqua;
+}
+
 .kaufman {
   position: relative;
   overflow: hidden;
@@ -346,6 +354,10 @@
   text-decoration: none;
   list-style-type: none;
 }
+
+.footer__column-link:hover {
+  background-color: gray;
+} 
 
 .footer__social-icon {
   margin-right: 10px;
