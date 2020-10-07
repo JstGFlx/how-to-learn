@@ -20,7 +20,7 @@
   background-color: #1f1f1f;
 }
 
-  .header {
+.header {
   background-color: #f2f2f2;
   position: relative;
   height: 100vh;
@@ -84,7 +84,7 @@
   right: 0;
 }
 
-.description-top {
+.description {
   margin-top: 100px;
 }
 
@@ -121,8 +121,12 @@
 }
 
 /*ниже правило для отступа второй строчки в колонке description*/
-.two-columns__paragraph:nth-of-type(2) {
-  margin: 30px 0;
+.two-columns__paragraph {
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin: 0;
 }
 
 /*ниже правило для выделения жирным слова "вывод"*/
@@ -130,7 +134,7 @@
   font-weight: bold;
 }
 
-.digits-top {
+.digits {
   margin: 100px 0;
 }
 
@@ -185,7 +189,7 @@
 }
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   background-color: #f2f2f2;
   position: relative;
 }
@@ -208,6 +212,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 .feynman__subtitle {
@@ -215,6 +221,8 @@
   text-align: center;
   line-height: 51px;
   font-size: 36px;
+  position: relative;
+  z-index: 1;
 }
 
 .feynman__link {
@@ -227,10 +235,16 @@
   color: #2f80ed;
 }
 
-.kaufman-top {
+.kaufman {
   position: relative;
   overflow: hidden;
   padding: 90px 0;
+  background-color: #1f1f1f;
+}
+
+.table_theme_dark {
+  position: relative;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -272,6 +286,12 @@
 .footer {
   min-height: 250px;
   padding: 60px 0 40px;
+  background-color: #1f1f1f;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
 }
 
 .footer__columns {
@@ -283,10 +303,13 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
+.footer_column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
@@ -295,17 +318,13 @@
   color: white;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
+  list-style-type: none;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
   list-style-type: none;
 }
 
