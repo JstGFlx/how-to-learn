@@ -116,15 +116,12 @@
   font-size: 24px;
 }
 
-.two-columns__paragraph {
-  margin: 0;
-}
 
-/*ниже правило для отступа второй строчки в колонке description*/
 .two-columns__paragraph {
   margin-bottom: 30px;
 }
 
+/*ниже правило для отступа последней строчки в колонке description*/
 .two-columns__paragraph:last-of-type {
   margin: 0;
 }
