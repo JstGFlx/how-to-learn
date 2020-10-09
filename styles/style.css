@@ -282,6 +282,7 @@
  /*ниже сделал через img так как через background не отображалось на пре-проверке*/
 .kaufman__triangle {
   background-image: url(/images/kaufman-triangle.svg);
+  background-size: cover;
   position: absolute;
   top: 0px;
   right: -210px;
