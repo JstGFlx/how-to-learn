@@ -281,6 +281,7 @@
 
  /*ниже сделал через img так как через background не отображалось на пре-проверке*/
 .kaufman__triangle {
+  background-image: url(/images/kaufman-triangle.svg);
   position: absolute;
   top: 0px;
   right: -210px;
@@ -308,7 +309,7 @@
   justify-content: space-between;
 }
 
-.footer_column {
+.footer__column {
   display: flex;
   flex-direction: column;
 }
