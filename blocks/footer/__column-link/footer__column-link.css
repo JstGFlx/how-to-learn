@@ -4,7 +4,7 @@
   font-size: 18px;
   text-decoration: none;
   list-style-type: none;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .footer__column-link:hover {
